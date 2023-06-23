@@ -7,12 +7,11 @@ import Capacitor
  */
 @objc(DataThermPlugin)
 public class DataThermPlugin: CAPPlugin {
-    private let implementation = DataTherm()
 
     @objc func echo(_ call: CAPPluginCall) {
         let value = call.getString("value") ?? ""
         call.resolve([
-            "value": implementation.echo(value)
+            "value": "from ios again " + value
         ])
     }
 }
