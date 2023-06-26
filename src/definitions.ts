@@ -1,3 +1,11 @@
+import { PluginResultData } from "@capacitor/core"
+
 export interface DataThermPlugin {
-  echo(options: { value: string }): Promise<{ value: string }>;
+    getImage(): Promise<PluginResultData>
+
+}
+
+export interface DataThermPluginData {
+    Celicius: number
+    Image: string
 }

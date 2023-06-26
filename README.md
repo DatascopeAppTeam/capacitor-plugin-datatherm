@@ -13,25 +13,28 @@ npx cap sync
 
 <docgen-index>
 
-* [`echo(...)`](#echo)
+* [`getImage()`](#getimage)
+* [Interfaces](#interfaces)
 
 </docgen-index>
 
 <docgen-api>
 <!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
 
-### echo(...)
+### getImage()
 
 ```typescript
-echo(options: { value: string; }) => Promise<{ value: string; }>
+getImage() => Promise<PluginResultData>
 ```
 
-| Param         | Type                            |
-| ------------- | ------------------------------- |
-| **`options`** | <code>{ value: string; }</code> |
-
-**Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
+**Returns:** <code>Promise&lt;<a href="#pluginresultdata">PluginResultData</a>&gt;</code>
 
 --------------------
+
+
+### Interfaces
+
+
+#### PluginResultData
 
 </docgen-api>

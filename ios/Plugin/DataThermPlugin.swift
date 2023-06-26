@@ -6,12 +6,36 @@ import Capacitor
  * here: https://capacitorjs.com/docs/plugins/ios
  */
 @objc(DataThermPlugin)
-public class DataThermPlugin: CAPPlugin {
+public class DataThermPlugin : CAPPlugin {
 
-    @objc func echo(_ call: CAPPluginCall) {
-        let value = call.getString("value") ?? ""
-        call.resolve([
-            "value": "from ios again " + value
-        ])
+    var call: CAPPluginCall?
+    override init(){
+        super.init()
+    }
+    
+    @objc func getImage(_ call: CAPPluginCall){
+        self.call = call
+        DispatchQueue.main.async {
+            self.logToIonic("in main thread")
+            let storyboard = UIStoryboard(name: "DataFlirStoryBoard", bundle: nil)
+            let dataFlirViewController = storyboard.instantiateViewController(identifier: "DataFlirUI") as! DataFlirViewController
+            dataFlirViewController.modalPresentationStyle = .fullScreen
+            dataFlirViewController.dataFlirDelagate = self
+            self.bridge?.viewController?.present(dataFlirViewController, animated: true)
+        }
+    }
+}
+
+extension DataThermPlugin: DataFlirDelegate{
+    func hasCancelled() {
+        self.call?.resolve(["Canceled":true])
+    }
+    
+    func hasDismissed(temp: Double, img: String) {
+        self.call?.resolve(["Celsius":temp, "Image": "data:image/jpeg;base64," + img])
+    }
+    
+    func logToIonic(_ message:String) {
+        self.notifyListeners("pluginLog", data: ["LogMessage":message])
     }
 }

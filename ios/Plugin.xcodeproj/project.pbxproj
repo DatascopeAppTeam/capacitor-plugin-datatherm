@@ -15,24 +15,11 @@
 		50ADFFA42020D75100D50D53 /* Capacitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50ADFFA52020D75100D50D53 /* Capacitor.framework */; };
 		50ADFFA82020EE4F00D50D53 /* DataThermPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 50ADFFA72020EE4F00D50D53 /* DataThermPlugin.m */; };
 		50E1A94820377CB70090CE1A /* DataThermPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E1A94720377CB70090CE1A /* DataThermPlugin.swift */; };
-		D284CD032A45E05700A2B141 /* libavformat.58.dylib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D284CCFA2A45E05700A2B141 /* libavformat.58.dylib.framework */; };
-		D284CD042A45E05700A2B141 /* libavformat.58.dylib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D284CCFA2A45E05700A2B141 /* libavformat.58.dylib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D284CD052A45E05700A2B141 /* ThermalSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D284CCFB2A45E05700A2B141 /* ThermalSDK.framework */; };
-		D284CD062A45E05700A2B141 /* ThermalSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D284CCFB2A45E05700A2B141 /* ThermalSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D284CD072A45E05700A2B141 /* libswresample.3.dylib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D284CCFC2A45E05700A2B141 /* libswresample.3.dylib.framework */; };
-		D284CD082A45E05800A2B141 /* libswresample.3.dylib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D284CCFC2A45E05700A2B141 /* libswresample.3.dylib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D284CD092A45E05800A2B141 /* libswscale.5.dylib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D284CCFD2A45E05700A2B141 /* libswscale.5.dylib.framework */; };
-		D284CD0A2A45E05800A2B141 /* libswscale.5.dylib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D284CCFD2A45E05700A2B141 /* libswscale.5.dylib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D284CD0B2A45E05800A2B141 /* libavfilter.7.dylib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D284CCFE2A45E05700A2B141 /* libavfilter.7.dylib.framework */; };
-		D284CD0C2A45E05800A2B141 /* libavfilter.7.dylib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D284CCFE2A45E05700A2B141 /* libavfilter.7.dylib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D284CD0D2A45E05800A2B141 /* libavdevice.58.dylib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D284CCFF2A45E05700A2B141 /* libavdevice.58.dylib.framework */; };
-		D284CD0E2A45E05800A2B141 /* libavdevice.58.dylib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D284CCFF2A45E05700A2B141 /* libavdevice.58.dylib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D284CD0F2A45E05800A2B141 /* libavutil.56.dylib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D284CD002A45E05700A2B141 /* libavutil.56.dylib.framework */; };
-		D284CD102A45E05800A2B141 /* libavutil.56.dylib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D284CD002A45E05700A2B141 /* libavutil.56.dylib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D284CD112A45E05800A2B141 /* liblive666.dylib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D284CD012A45E05700A2B141 /* liblive666.dylib.framework */; };
-		D284CD122A45E05900A2B141 /* liblive666.dylib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D284CD012A45E05700A2B141 /* liblive666.dylib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D284CD132A45E05900A2B141 /* libavcodec.58.dylib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D284CD022A45E05700A2B141 /* libavcodec.58.dylib.framework */; };
-		D284CD142A45E05900A2B141 /* libavcodec.58.dylib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D284CD022A45E05700A2B141 /* libavcodec.58.dylib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D25CE1332A4993C400163E7F /* ThermalSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D25CE1322A4993C400163E7F /* ThermalSDK.framework */; };
+		D25CE1342A4993C400163E7F /* ThermalSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D25CE1322A4993C400163E7F /* ThermalSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D25CE1372A49989100163E7F /* App-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = D25CE1362A49989100163E7F /* App-Bridging-Header.h */; };
+		D284CD172A45EC0E00A2B141 /* DataFlirViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D284CD162A45EC0E00A2B141 /* DataFlirViewController.swift */; };
+		D284CD192A45EC4000A2B141 /* DataFlirStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D284CD182A45EC4000A2B141 /* DataFlirStoryBoard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,21 +33,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		D284CD152A45E05900A2B141 /* Embed Frameworks */ = {
+		D25CE1352A4993C400163E7F /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D284CD142A45E05900A2B141 /* libavcodec.58.dylib.framework in Embed Frameworks */,
-				D284CD042A45E05700A2B141 /* libavformat.58.dylib.framework in Embed Frameworks */,
-				D284CD122A45E05900A2B141 /* liblive666.dylib.framework in Embed Frameworks */,
-				D284CD062A45E05700A2B141 /* ThermalSDK.framework in Embed Frameworks */,
-				D284CD0A2A45E05800A2B141 /* libswscale.5.dylib.framework in Embed Frameworks */,
-				D284CD0C2A45E05800A2B141 /* libavfilter.7.dylib.framework in Embed Frameworks */,
-				D284CD102A45E05800A2B141 /* libavutil.56.dylib.framework in Embed Frameworks */,
-				D284CD082A45E05800A2B141 /* libswresample.3.dylib.framework in Embed Frameworks */,
-				D284CD0E2A45E05800A2B141 /* libavdevice.58.dylib.framework in Embed Frameworks */,
+				D25CE1342A4993C400163E7F /* ThermalSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -81,15 +60,10 @@
 		5E23F77F099397094342571A /* Pods-Plugin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plugin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Plugin/Pods-Plugin.debug.xcconfig"; sourceTree = "<group>"; };
 		91781294A431A2A7CC6EB714 /* Pods-Plugin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plugin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Plugin/Pods-Plugin.release.xcconfig"; sourceTree = "<group>"; };
 		96ED1B6440D6672E406C8D19 /* Pods-PluginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PluginTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PluginTests/Pods-PluginTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D284CCFA2A45E05700A2B141 /* libavformat.58.dylib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libavformat.58.dylib.framework; path = Frameworks/libavformat.58.dylib.framework; sourceTree = "<group>"; };
-		D284CCFB2A45E05700A2B141 /* ThermalSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ThermalSDK.framework; path = Frameworks/ThermalSDK.framework; sourceTree = "<group>"; };
-		D284CCFC2A45E05700A2B141 /* libswresample.3.dylib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libswresample.3.dylib.framework; path = Frameworks/libswresample.3.dylib.framework; sourceTree = "<group>"; };
-		D284CCFD2A45E05700A2B141 /* libswscale.5.dylib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libswscale.5.dylib.framework; path = Frameworks/libswscale.5.dylib.framework; sourceTree = "<group>"; };
-		D284CCFE2A45E05700A2B141 /* libavfilter.7.dylib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libavfilter.7.dylib.framework; path = Frameworks/libavfilter.7.dylib.framework; sourceTree = "<group>"; };
-		D284CCFF2A45E05700A2B141 /* libavdevice.58.dylib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libavdevice.58.dylib.framework; path = Frameworks/libavdevice.58.dylib.framework; sourceTree = "<group>"; };
-		D284CD002A45E05700A2B141 /* libavutil.56.dylib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libavutil.56.dylib.framework; path = Frameworks/libavutil.56.dylib.framework; sourceTree = "<group>"; };
-		D284CD012A45E05700A2B141 /* liblive666.dylib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = liblive666.dylib.framework; path = Frameworks/liblive666.dylib.framework; sourceTree = "<group>"; };
-		D284CD022A45E05700A2B141 /* libavcodec.58.dylib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libavcodec.58.dylib.framework; path = Frameworks/libavcodec.58.dylib.framework; sourceTree = "<group>"; };
+		D25CE1322A4993C400163E7F /* ThermalSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ThermalSDK.framework; path = Plugin/Frameworks/ThermalSDK.framework; sourceTree = "<group>"; };
+		D25CE1362A49989100163E7F /* App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "App-Bridging-Header.h"; sourceTree = "<group>"; };
+		D284CD162A45EC0E00A2B141 /* DataFlirViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFlirViewController.swift; sourceTree = "<group>"; };
+		D284CD182A45EC4000A2B141 /* DataFlirStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DataFlirStoryBoard.storyboard; sourceTree = "<group>"; };
 		F65BB2953ECE002E1EF3E424 /* Pods-PluginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PluginTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PluginTests/Pods-PluginTests.release.xcconfig"; sourceTree = "<group>"; };
 		F6753A823D3815DB436415E3 /* Pods_PluginTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PluginTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -99,17 +73,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D284CD0F2A45E05800A2B141 /* libavutil.56.dylib.framework in Frameworks */,
-				D284CD112A45E05800A2B141 /* liblive666.dylib.framework in Frameworks */,
-				D284CD132A45E05900A2B141 /* libavcodec.58.dylib.framework in Frameworks */,
-				D284CD072A45E05700A2B141 /* libswresample.3.dylib.framework in Frameworks */,
-				D284CD032A45E05700A2B141 /* libavformat.58.dylib.framework in Frameworks */,
 				50ADFFA42020D75100D50D53 /* Capacitor.framework in Frameworks */,
+				D25CE1332A4993C400163E7F /* ThermalSDK.framework in Frameworks */,
 				03FC29A292ACC40490383A1F /* Pods_Plugin.framework in Frameworks */,
-				D284CD0B2A45E05800A2B141 /* libavfilter.7.dylib.framework in Frameworks */,
-				D284CD0D2A45E05800A2B141 /* libavdevice.58.dylib.framework in Frameworks */,
-				D284CD092A45E05800A2B141 /* libswscale.5.dylib.framework in Frameworks */,
-				D284CD052A45E05700A2B141 /* ThermalSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +118,9 @@
 				50ADFF8B201F53D600D50D53 /* DataThermPlugin.h */,
 				50ADFFA72020EE4F00D50D53 /* DataThermPlugin.m */,
 				50ADFF8C201F53D600D50D53 /* Info.plist */,
+				D284CD162A45EC0E00A2B141 /* DataFlirViewController.swift */,
+				D284CD182A45EC4000A2B141 /* DataFlirStoryBoard.storyboard */,
+				D25CE1362A49989100163E7F /* App-Bridging-Header.h */,
 			);
 			path = Plugin;
 			sourceTree = "<group>";
@@ -179,15 +148,7 @@
 		A797B9EFA3DCEFEA1FBB66A9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D284CD022A45E05700A2B141 /* libavcodec.58.dylib.framework */,
-				D284CCFF2A45E05700A2B141 /* libavdevice.58.dylib.framework */,
-				D284CCFE2A45E05700A2B141 /* libavfilter.7.dylib.framework */,
-				D284CCFA2A45E05700A2B141 /* libavformat.58.dylib.framework */,
-				D284CD002A45E05700A2B141 /* libavutil.56.dylib.framework */,
-				D284CD012A45E05700A2B141 /* liblive666.dylib.framework */,
-				D284CCFC2A45E05700A2B141 /* libswresample.3.dylib.framework */,
-				D284CCFD2A45E05700A2B141 /* libswscale.5.dylib.framework */,
-				D284CCFB2A45E05700A2B141 /* ThermalSDK.framework */,
+				D25CE1322A4993C400163E7F /* ThermalSDK.framework */,
 				50ADFFA52020D75100D50D53 /* Capacitor.framework */,
 				3B2A61DA5A1F2DD4F959604D /* Pods_Plugin.framework */,
 				F6753A823D3815DB436415E3 /* Pods_PluginTests.framework */,
@@ -203,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50ADFF99201F53D600D50D53 /* DataThermPlugin.h in Headers */,
+				D25CE1372A49989100163E7F /* App-Bridging-Header.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +180,7 @@
 				50ADFF84201F53D600D50D53 /* Frameworks */,
 				50ADFF85201F53D600D50D53 /* Headers */,
 				50ADFF86201F53D600D50D53 /* Resources */,
-				D284CD152A45E05900A2B141 /* Embed Frameworks */,
+				D25CE1352A4993C400163E7F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -295,6 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D284CD192A45EC4000A2B141 /* DataFlirStoryBoard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +336,7 @@
 			files = (
 				50E1A94820377CB70090CE1A /* DataThermPlugin.swift in Sources */,
 				50ADFFA82020EE4F00D50D53 /* DataThermPlugin.m in Sources */,
+				D284CD172A45EC0E00A2B141 /* DataFlirViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +399,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"${BUILT_PRODUCTS_DIR}/Capacitor\"",
 					"\"${BUILT_PRODUCTS_DIR}/CapacitorCordova\"",
+					"$(SRCROOT)/**",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -501,6 +466,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"${BUILT_PRODUCTS_DIR}/Capacitor\"",
 					"\"${BUILT_PRODUCTS_DIR}/CapacitorCordova\"",
+					"$(SRCROOT)/**",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -535,6 +501,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Plugin/Frameworks",
 				);
 				INFOPLIST_FILE = Plugin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -566,6 +533,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Plugin/Frameworks",
 				);
 				INFOPLIST_FILE = Plugin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
