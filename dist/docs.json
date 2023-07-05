@@ -1,0 +1,36 @@
+{
+  "api": {
+    "name": "DataThermPlugin",
+    "slug": "datathermplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "getImage",
+        "signature": "() => Promise<PluginResultData>",
+        "parameters": [],
+        "returns": "Promise<PluginResultData>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [
+          "PluginResultData"
+        ],
+        "slug": "getimage"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [
+    {
+      "name": "PluginResultData",
+      "slug": "pluginresultdata",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": []
+    }
+  ],
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
+}

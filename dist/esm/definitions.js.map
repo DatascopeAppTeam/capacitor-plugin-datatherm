@@ -1,0 +1,1 @@
+{"version":3,"file":"definitions.js","sourceRoot":"","sources":["../../src/definitions.ts"],"names":[],"mappings":"","sourcesContent":["import { PluginResultData } from \"@capacitor/core\"\n\nexport interface DataThermPlugin {\n    getImage(): Promise<PluginResultData>\n\n}\n\nexport interface DataThermPluginData {\n    Celicius: number\n    Image: string\n}\n"]}
