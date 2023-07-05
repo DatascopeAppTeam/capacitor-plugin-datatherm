@@ -16,7 +16,6 @@ public class DataThermPlugin : CAPPlugin {
     @objc func getImage(_ call: CAPPluginCall){
         self.call = call
         DispatchQueue.main.async {
-            self.logToIonic("in main thread")
             let storyboard = UIStoryboard(name: "DataFlirStoryBoard", bundle: nil)
             let dataFlirViewController = storyboard.instantiateViewController(identifier: "DataFlirUI") as! DataFlirViewController
             dataFlirViewController.modalPresentationStyle = .fullScreen

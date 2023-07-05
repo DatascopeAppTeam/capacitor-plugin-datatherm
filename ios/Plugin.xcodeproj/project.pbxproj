@@ -15,9 +15,9 @@
 		50ADFFA42020D75100D50D53 /* Capacitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50ADFFA52020D75100D50D53 /* Capacitor.framework */; };
 		50ADFFA82020EE4F00D50D53 /* DataThermPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 50ADFFA72020EE4F00D50D53 /* DataThermPlugin.m */; };
 		50E1A94820377CB70090CE1A /* DataThermPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E1A94720377CB70090CE1A /* DataThermPlugin.swift */; };
-		D25CE1332A4993C400163E7F /* ThermalSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D25CE1322A4993C400163E7F /* ThermalSDK.framework */; };
-		D25CE1342A4993C400163E7F /* ThermalSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D25CE1322A4993C400163E7F /* ThermalSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D25CE1372A49989100163E7F /* App-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = D25CE1362A49989100163E7F /* App-Bridging-Header.h */; };
+		D25CE1602A49D9C900163E7F /* ThermalSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D25CE15F2A49D9C900163E7F /* ThermalSDK.framework */; };
+		D25CE1612A49D9C900163E7F /* ThermalSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D25CE15F2A49D9C900163E7F /* ThermalSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D284CD172A45EC0E00A2B141 /* DataFlirViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D284CD162A45EC0E00A2B141 /* DataFlirViewController.swift */; };
 		D284CD192A45EC4000A2B141 /* DataFlirStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D284CD182A45EC4000A2B141 /* DataFlirStoryBoard.storyboard */; };
 /* End PBXBuildFile section */
@@ -33,13 +33,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		D25CE1352A4993C400163E7F /* Embed Frameworks */ = {
+		D25CE1622A49D9C900163E7F /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D25CE1342A4993C400163E7F /* ThermalSDK.framework in Embed Frameworks */,
+				D25CE1612A49D9C900163E7F /* ThermalSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -60,8 +60,8 @@
 		5E23F77F099397094342571A /* Pods-Plugin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plugin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Plugin/Pods-Plugin.debug.xcconfig"; sourceTree = "<group>"; };
 		91781294A431A2A7CC6EB714 /* Pods-Plugin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plugin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Plugin/Pods-Plugin.release.xcconfig"; sourceTree = "<group>"; };
 		96ED1B6440D6672E406C8D19 /* Pods-PluginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PluginTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PluginTests/Pods-PluginTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D25CE1322A4993C400163E7F /* ThermalSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ThermalSDK.framework; path = Plugin/Frameworks/ThermalSDK.framework; sourceTree = "<group>"; };
 		D25CE1362A49989100163E7F /* App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "App-Bridging-Header.h"; sourceTree = "<group>"; };
+		D25CE15F2A49D9C900163E7F /* ThermalSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ThermalSDK.framework; path = Plugin/Frameworks/ThermalSDK.framework; sourceTree = "<group>"; };
 		D284CD162A45EC0E00A2B141 /* DataFlirViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFlirViewController.swift; sourceTree = "<group>"; };
 		D284CD182A45EC4000A2B141 /* DataFlirStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DataFlirStoryBoard.storyboard; sourceTree = "<group>"; };
 		F65BB2953ECE002E1EF3E424 /* Pods-PluginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PluginTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PluginTests/Pods-PluginTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50ADFFA42020D75100D50D53 /* Capacitor.framework in Frameworks */,
-				D25CE1332A4993C400163E7F /* ThermalSDK.framework in Frameworks */,
+				D25CE1602A49D9C900163E7F /* ThermalSDK.framework in Frameworks */,
 				03FC29A292ACC40490383A1F /* Pods_Plugin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,7 +148,7 @@
 		A797B9EFA3DCEFEA1FBB66A9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D25CE1322A4993C400163E7F /* ThermalSDK.framework */,
+				D25CE15F2A49D9C900163E7F /* ThermalSDK.framework */,
 				50ADFFA52020D75100D50D53 /* Capacitor.framework */,
 				3B2A61DA5A1F2DD4F959604D /* Pods_Plugin.framework */,
 				F6753A823D3815DB436415E3 /* Pods_PluginTests.framework */,
@@ -180,7 +180,7 @@
 				50ADFF84201F53D600D50D53 /* Frameworks */,
 				50ADFF85201F53D600D50D53 /* Headers */,
 				50ADFF86201F53D600D50D53 /* Resources */,
-				D25CE1352A4993C400163E7F /* Embed Frameworks */,
+				D25CE1622A49D9C900163E7F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -415,6 +415,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -476,6 +477,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
@@ -500,13 +502,24 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Frameworks/**",
+					"$(PROJECT_DIR)/Plugin/Frameworks/**",
 					"$(PROJECT_DIR)/Plugin/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Capacitor/Capacitor.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CapacitorCordova/Cordova.framework/Headers\"",
+					"$(PROJECT_DIR)/**",
 				);
 				INFOPLIST_FILE = Plugin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)\n$(FRAMEWORK_SEARCH_PATHS)\n$(FRAMEWORK_SEARCH_PATHS)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Plugin/Frameworks/ThermalSDK.framework",
+				);
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.datascopeplc.datathermplugin;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -532,13 +545,24 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Frameworks/**",
+					"$(PROJECT_DIR)/Plugin/Frameworks/**",
 					"$(PROJECT_DIR)/Plugin/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Capacitor/Capacitor.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CapacitorCordova/Cordova.framework/Headers\"",
+					"$(PROJECT_DIR)/**",
 				);
 				INFOPLIST_FILE = Plugin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Plugin/Frameworks/ThermalSDK.framework",
+				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.datascopeplc.datathermplugin;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -554,9 +578,10 @@
 			baseConfigurationReference = 96ED1B6440D6672E406C8D19 /* Pods-PluginTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4EM5MV36Z8;
 				INFOPLIST_FILE = PluginTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.getcapacitor.PluginTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.datscopeplc.dtaflirtests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -568,9 +593,10 @@
 			baseConfigurationReference = F65BB2953ECE002E1EF3E424 /* Pods-PluginTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4EM5MV36Z8;
 				INFOPLIST_FILE = PluginTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.getcapacitor.PluginTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.datscopeplc.dtaflirtests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
